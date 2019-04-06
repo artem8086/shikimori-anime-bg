@@ -11,39 +11,39 @@ body:before {
   width: 100%;
   height: 100vh;
   background-image:
-      url('https://static.zerochan.net/Zero.Two.%28Darling.in.the.FranXX%29.full.2364813.png'),
-      url('https://cs4.pikabu.ru/post_img/big/2016/01/01/1/1451602468183838765.png'),
-      url('http://pre08.deviantart.net/6ed1/th/pre/f/2014/243/6/1/asuna_render_by_monaleinchenx3-d7xgxxx.png'),
-      url('https://i.pinimg.com/originals/f6/9d/74/f69d74ef3e531b213786fc212df204c5.png'),
-      url('http://pngimg.com/uploads/vampire/vampire_PNG25.png'),  
-      url('https://i.pinimg.com/originals/84/e8/32/84e8328d16217368f310d5b803c5af22.png'),
-      url('https://i.pinimg.com/originals/c8/32/94/c8329496b978dbff042b122f9060523c.png'),      
+      url('https://artem8086.github.io/shikimori-anime-bg/images/zero_two.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/ryuko_matoi.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/haruhi_suzumiya.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/hiyori.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/akame.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/taiga.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/makisu_kurise.png'),
       linear-gradient(#87e0fd 0%, #fcfcfc 50%, #fcfcfc 70%, #ff4c4c 100%) !important;
-  background-size: auto 102%, auto 80%, auto 80%, auto 70%, auto 70%, auto 55%, auto 63%, 100% 100%;
+  background-size: auto 90%, auto 80%, auto 75%, auto 70%, auto 72%, auto 58%, auto 63%, 100% 100%;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
-  background-position: bottom 0 center, bottom 0 left 34%, bottom 0 right 20%, bottom -3% right 12%, bottom 0 left 12%, bottom 0 left 2%, bottom -2% right 7% !important;
+  background-position: bottom 0 center, bottom 0 left 23%, bottom 0 right 26%, bottom 0% right 14%, bottom 0 left 10%, bottom 0 left -2%, bottom 0 right 7% !important;
 }
 
 @media screen and (max-width: 1024px) {
   body:before {
-    background-size: auto 82%, auto 60%, auto 60%, auto 50%, auto 50%, auto 35%, auto 43%, 100% 100% !important;
+    background-size: auto 68%, auto 60%, auto 57%, auto 49%, auto 50%, auto 35%, auto 43%, 100% 100% !important;
   }
 }
 
 @media screen and (max-width: 680px) and (min-height: 580px) {
   body:before {
-    background-position: bottom 0 center, bottom 0 left 9%, bottom 0 right 5%, bottom -3% right -3%, bottom 0 left -12%, bottom 0 left -16%, bottom -7% right -8% !important;
+    background-position: bottom 0 center, bottom 0 left 9%, bottom 0 right 5%, bottom 0 right -3%, bottom 0 left -12%, bottom 0 left -16%, bottom 0 right -8% !important;
   }
 }
 
 @media screen and (max-width: 420px) {
   body:before {
     background-image:
-      url('https://static.zerochan.net/Zero.Two.%28Darling.in.the.FranXX%29.full.2364813.png'),
+      url('https://artem8086.github.io/shikimori-anime-bg/images/zero_two.png'),
       linear-gradient(#87e0fd 0%, #fcfcfc 50%, #fcfcfc 70%, #ff4c4c 100%) !important;
-      background-size: contain !important;
-      background-position: bottom 0 center !important;
+    background-size: contain !important;
+    background-position: bottom 0 center !important;
   }
   .p-profiles .profile-head .head.misc .notice {
     display: none !important;
